@@ -1,0 +1,25 @@
+{
+  "name": "seleniumexample",
+  "version": "1.0.0",
+  "description": "Selenium Example Project",
+  "main": "commonSteps.js",
+  "scripts": {
+    "test_login": "D:/Cham_BU/Selenium/seleniumExample/node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/Login.feature",
+    "test_logout": "D:/Cham_BU/Selenium/seleniumExample/node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/Logout.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "chromedriver": "^93.0.1",
+    "cucumber": "^7.0.0-rc.0",
+    "geckodriver": "^2.0.4",
+    "selenium-webdriver": "^4.0.0-rc-1",
+    "webdriverio": "^7.13.1"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+    "chai": "^4.3.4"
+  }
+}
